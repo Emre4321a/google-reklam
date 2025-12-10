@@ -1,0 +1,17 @@
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSearchApp.csproj.AssemblyReference.cache
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSearchApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSearchApp.AssemblyInfoInputs.cache
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSearchApp.AssemblyInfo.cs
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSearchApp.csproj.CoreCompileInputs.cache
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\bin\Debug\net8.0-windows\GoogleSearchApp.exe
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\bin\Debug\net8.0-windows\GoogleSearchApp.deps.json
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\bin\Debug\net8.0-windows\GoogleSearchApp.runtimeconfig.json
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\bin\Debug\net8.0-windows\GoogleSearchApp.dll
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\bin\Debug\net8.0-windows\GoogleSearchApp.pdb
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\bin\Debug\net8.0-windows\HtmlAgilityPack.dll
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSe.7053EA63.Up2Date
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSearchApp.dll
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\refint\GoogleSearchApp.dll
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSearchApp.pdb
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\GoogleSearchApp.genruntimeconfig.cache
+c:\Users\emrei\Masaüstü\Tarayici\GoogleSearchApp\obj\Debug\net8.0-windows\ref\GoogleSearchApp.dll

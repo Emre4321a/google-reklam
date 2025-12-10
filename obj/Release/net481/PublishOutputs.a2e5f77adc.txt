@@ -1,0 +1,17 @@
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\selenium-manager\linux\selenium-manager
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\selenium-manager\macos\selenium-manager
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\selenium-manager\windows\selenium-manager.exe
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\GoogleSearchApp.exe
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\GoogleSearchApp.exe.config
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\GoogleSearchApp.pdb
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\Newtonsoft.Json.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\WebDriver.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\System.Buffers.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\System.Memory.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\System.Numerics.Vectors.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\System.Text.Encodings.Web.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\System.Text.Json.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\System.Threading.Tasks.Extensions.dll
+C:\Users\emrei\Masaüstü\Ev\Tarayici\GoogleSearchApp\publish\System.ValueTuple.dll

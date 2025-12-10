@@ -1,0 +1,4 @@
+C:\Users\emrei\Desktop\SponsorBotu\GoogleSearchApp.pdb
+C:\Users\emrei\Desktop\SponsorBotu\selenium-manager\linux\selenium-manager
+C:\Users\emrei\Desktop\SponsorBotu\selenium-manager\macos\selenium-manager
+C:\Users\emrei\Desktop\SponsorBotu\GoogleSearchApp.exe
