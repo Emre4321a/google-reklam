@@ -1,7 +1,7 @@
 {
     "version": "2.0.0.3",
     "downloadUrl": "https://github.com/Emre4321a/google-reklam/releases/latest",
-    "releaseNotes": "• İlk sürüm\n• Güncelleme sistemi eklendi\n• Performans iyileştirmeleri",
+    "releaseNotes": "• Tasarım iyileştirmeleri\n• Emojiler kaldırıldı\n• Windows 8 uyumluluğu\n• Güncelleme sistemi düzeltildi",
     "mandatory": false,
     "releaseDate": "2025-12-10"
 }
