@@ -15,7 +15,7 @@ public class UpdateChecker
     private const string GITHUB_API_URL = "https://api.github.com/repos/Emre4321a/google-reklam/releases/latest";
     
     // Mevcut uygulama versiyonu - her güncelleme yaptığınızda artırın
-    public static readonly Version CurrentVersion = new Version(2, 0, 0, 0);
+    public static readonly Version CurrentVersion = new Version(2, 0, 0, 2);
     
     /// <summary>
     /// Güncelleme bilgisi modeli
@@ -187,32 +187,40 @@ public class UpdateChecker
             
             progress?.Report(85);
             
-            // Updater batch dosyası oluştur
+            // Exe dosyasının bulunduğu klasör
+            string appExePath = Path.Combine(appPath.TrimEnd('\\'), "GoogleSearchApp.exe");
+            
+            // Updater batch dosyası oluştur - short path kullanarak Türkçe karakter sorununu önle
             var batchContent = $@"@echo off
-chcp 65001 >nul
+chcp 1254 >nul
 echo Guncelleme kuruluyor, lutfen bekleyin...
-timeout /t 2 /nobreak >nul
+ping 127.0.0.1 -n 3 >nul
 
 :waitloop
 tasklist /FI ""IMAGENAME eq GoogleSearchApp.exe"" 2>NUL | find /I /N ""GoogleSearchApp.exe"">NUL
 if ""%ERRORLEVEL%""==""0"" (
     echo Uygulama kapatiliyor...
     taskkill /F /IM GoogleSearchApp.exe >nul 2>&1
-    timeout /t 1 /nobreak >nul
+    ping 127.0.0.1 -n 2 >nul
     goto waitloop
 )
 
 echo Dosyalar kopyalaniyor...
-xcopy /E /Y /Q ""{sourceDir}\*"" ""{appPath}""
+xcopy /E /Y /Q ""{sourceDir}\*"" ""{appPath.TrimEnd('\\')}\"" >nul 2>&1
+if errorlevel 1 (
+    copy /Y ""{sourceDir}\*.*"" ""{appPath.TrimEnd('\\')}\""  >nul 2>&1
+)
 
 echo Guncelleme tamamlandi!
-timeout /t 1 /nobreak >nul
+ping 127.0.0.1 -n 2 >nul
 
 echo Uygulama yeniden baslatiliyor...
-start """" ""{Path.Combine(appPath, "GoogleSearchApp.exe")}""
+cd /d ""{appPath.TrimEnd('\\')}""
+start """" ""GoogleSearchApp.exe""
 
+ping 127.0.0.1 -n 3 >nul
 rd /s /q ""{tempPath}"" 2>nul
-del ""%~f0""
+exit
 ";
             
             File.WriteAllText(updaterBatPath, batchContent, System.Text.Encoding.GetEncoding(1254));
