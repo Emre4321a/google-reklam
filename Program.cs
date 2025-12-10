@@ -16,7 +16,6 @@ static class Program
         // Güncelleme kontrolü yap (ConfigureAwait(false) ile deadlock önlenir)
         splashForm.UpdateStatus("Güncelleme kontrol ediliyor...");
         
-        bool shouldContinue = true;
         try
         {
             var updateTask = Task.Run(async () => await UpdateChecker.CheckForUpdateAsync());
@@ -25,28 +24,14 @@ static class Program
             if (hasUpdate && updateInfo != null)
             {
                 splashForm.Hide();
-                var result = UpdateChecker.ShowUpdateDialog(updateInfo, null);
-                
-                if (result == DialogResult.Yes)
-                {
-                    UpdateChecker.OpenDownloadPage(updateInfo.DownloadUrl);
-                    shouldContinue = false;
-                }
-                else if (updateInfo.Mandatory)
-                {
-                    shouldContinue = false;
-                }
+                // ShowUpdateDialog içinde otomatik indirme ve kurulum yapılıyor
+                UpdateChecker.ShowUpdateDialog(updateInfo, null);
+                // Dialog açıldıysa ve güncelleme başladıysa uygulama zaten kapanacak
             }
         }
         catch
         {
             // Güncelleme kontrolü başarısız olursa devam et
-        }
-        
-        if (!shouldContinue)
-        {
-            splashForm.Close();
-            return;
         }
         
         splashForm.Show();

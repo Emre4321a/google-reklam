@@ -1870,16 +1870,11 @@ public class MainForm : Form
             if (hasUpdate && updateInfo != null)
             {
                 Log($"Yeni güncelleme bulundu: v{updateInfo.Version}", LogLevel.Success);
-                lblStatus.Text = $"🆕 Yeni güncelleme mevcut: v{updateInfo.Version}";
+                lblStatus.Text = $"Yeni güncelleme mevcut: v{updateInfo.Version}";
                 lblStatus.ForeColor = Color.Green;
                 
-                var result = UpdateChecker.ShowUpdateDialog(updateInfo, this);
-                
-                if (result == DialogResult.Yes)
-                {
-                    UpdateChecker.OpenDownloadPage(updateInfo.DownloadUrl);
-                    Application.Exit();
-                }
+                // ShowUpdateDialog içinde otomatik indirme ve kurulum yapılıyor
+                UpdateChecker.ShowUpdateDialog(updateInfo, this);
             }
             else
             {

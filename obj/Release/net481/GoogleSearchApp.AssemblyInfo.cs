@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoogleSearchApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e574a20dbe5399242b602e81828e4bd05c53423e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16b45d7adfe87f5bd02105930406fc5faa7f1df9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoogleSearchApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoogleSearchApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
